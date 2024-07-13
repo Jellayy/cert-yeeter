@@ -9,7 +9,7 @@ Simple API for serving SHA1 domain certificate fingerprints to embedded/IoT devi
 
 My roommate, despite being a highly paid defense contractor and electrical engineer, gets his microcontrollers from his sock drawer and refuses to spend the dollar on an ESP32.
 
-So naturally the custom temperature sensors in our house are ESP8266 based and the InfluxDB Arduino library for these doesn't properly SSL/TLS and they recommend you hard code your cert fingerprints.
+So naturally the custom temperature sensors in our house are ESP8266 based and the InfluxDB Arduino library for these doesn't properly support SSL/TLS and they recommend you hard code your cert fingerprints.
 
 This is an API so these things can pull my InfluxDB SHA1 cert fingerprint on boot instead of having to rip these off the walls every 90 days to change it manually.
 
